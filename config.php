@@ -4,16 +4,16 @@
   array (
     'driver' => 'mysql',
     'host' => 'localhost',
-    'database' => 'flarum',
-    'username' => 'carman',
-    'password' => 'sh123451',
+    'database' => '<your_database_name>',
+    'username' => '<database user name>',
+    'password' => '<database password>',
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
-    'prefix' => 'carman',
+    'prefix' => '<table prefix in database>',
     'port' => '3306',
     'strict' => false,
   ),
-  'url' => 'http://139.198.18.211:8181',
+  'url' => '<generated>',
   'paths' => 
   array (
     'api' => 'api',
